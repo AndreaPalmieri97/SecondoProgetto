@@ -5,7 +5,7 @@ Progettare una classe Quadrato, che permetta di
 • Istanziare la classe con la dimensione del lato del
 quadrato X
 • Ottenere il perimetro del quadrato X
-• Stampare il quadrato sulla console
+• Stampare il quadrato sulla console X
 Progettare una classe Cerchio, che permetta di
 • Istanziare la classe con un costruttore che accetta un
 parametro
