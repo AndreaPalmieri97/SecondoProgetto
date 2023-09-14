@@ -19,7 +19,7 @@ public class Main {
         conta1.setConta(5);
         System.out.println(conta1.getConta());
 
-        //---------------------------
+        //-------------------------
         System.out.println(" ");
 
         System.out.println(conta2.getConta());
