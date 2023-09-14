@@ -1,10 +1,10 @@
 package esercizio2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         //ESERCIZIO1
         Quadrato quadrato = new Quadrato(10);
@@ -20,13 +20,14 @@ public class Main {
         cerchio.calcolaCirconferenza();
 
         //ESERCZIO3
-        int[] colori = new int[3];
-        System.out.println("Inserisci il valore del rosso : ");
+        int[] colori = Colore.creaColore();
+        Colore RGB = new Colore(colori);
+        System.out.println(RGB.toString());
 
-        int valoreRosso=-1;
-        while(valoreRosso<0 || valoreRosso>255) {
-            valoreRosso = scanner.nextInt();
-        }
+        cerchio.setColore(Colore.creaColore());
+        System.out.println(cerchio.getColore());
+        quadrato.setColore(Colore.creaColore());
+        System.out.println(quadrato.getColore());
 
     }
 }

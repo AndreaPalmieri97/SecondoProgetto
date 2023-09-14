@@ -1,5 +1,7 @@
 package esercizio2;
 
+import java.util.Arrays;
+
 public class Cerchio {
 /*
 Progettare una classe Cerchio, che permetta di
@@ -9,9 +11,18 @@ parametro X
 Ottenere l’area del cerchio X
 */
     private int raggio;
+    private int[] colore = Colore.nero;
 
     public Cerchio(int raggio) {
         this.raggio = raggio;
+    }
+
+    public void setColore(int[] colore) {
+        this.colore = colore;
+    }
+
+    public String getColore() {
+        return Arrays.toString(colore);
     }
 
     public void calcolaCirconferenza(){
