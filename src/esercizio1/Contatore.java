@@ -1,3 +1,5 @@
+package esercizio1;
+
 /* Progettare una classe Contatore che permetta di
 • Istanziare la classe con un valore iniziale X
 • Istanziare la classe senza un valore iniziale X
